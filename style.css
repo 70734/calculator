@@ -1,0 +1,12 @@
+boby {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: purple;
+}
+
+calculator {
+    display: flex;
+    border: 2px solid pink;
+}
