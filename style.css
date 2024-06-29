@@ -4,9 +4,24 @@ body {
     justify-content: center;
     align-items: center;
     background-color: purple;
+    height: 100vh;
 }
 
-calculator {
+
+
+.calc-row {
     display: flex;
-    border: 2px solid pink;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+button {
+    border: 2px solid rgb(255, 0, 217);
+    background-color: pink;
+    flex: auto;
+}
+
+#output {
+    background-color: bisque;
+    height: 25px;
 }
